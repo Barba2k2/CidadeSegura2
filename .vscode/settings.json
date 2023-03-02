@@ -1,0 +1,21 @@
+{
+    "explorer.compactFolders": false,
+    "audioCues.terminalQuickFix": "off",
+    "audioCues.taskFailed": "off",
+    "audioCues.taskCompleted": "off",
+    "audioCues.onDebugBreak": "off",
+    "audioCues.notebookCellFailed": "off",
+    "audioCues.notebookCellCompleted": "off",
+    "audioCues.noInlayHints": "off",
+    "audioCues.lineHasInlineSuggestion": "off",
+    "audioCues.diffLineModified": "off",
+    "audioCues.lineHasBreakpoint": "off",
+    "audioCues.lineHasError": "off",
+    "audioCues.lineHasFoldedArea": "off",
+    "audioCues.diffLineDeleted": "off",
+    "audioCues.diffLineInserted": "off",
+    "dart.devToolsBrowser": "default",
+    "editor.wordWrapColumn": 120,
+    "cmake.configureOnOpen": false,
+    "editor.guides.bracketPairs": true
+}

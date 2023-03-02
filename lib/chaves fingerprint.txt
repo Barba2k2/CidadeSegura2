@@ -1,0 +1,6 @@
+Fingerprints do certificado:
+        
+    SHA1: 0B:8E:C8:D2:DF:10:30:69:0E:5D:A2:60:1B:3E:DD:05:74:CD:98:C3
+    SHA256: 36:0D:24:8E:98:C6:53:02:B8:43:78:D7:86:E3:76:4C:6E:4F:7B:8D:53:0A:03:29:F1:86:D9:D2:99:11:CA:CF
+
+Package_name: com.example.cidade_segura2

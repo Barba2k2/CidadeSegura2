@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "94786209859",
+    "project_id": "cidadesegura2",
+    "storage_bucket": "cidadesegura2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94786209859:android:e1f6454f3b9e916db62cf6",
+        "android_client_info": {
+          "package_name": "com.example.cidade_segura2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94786209859-074di2jvf2mtt0imubtbu9to4civ4tc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cidade_segura2",
+            "certificate_hash": "0b8ec8d2df1030690e5da2601b3edd0574cd98c3"
+          }
+        },
+        {
+          "client_id": "94786209859-2eo6vdfatmtmfp47i9a8gcdlj8qnd5pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmyL-yI_UfwyPMZJXn-304f68E20PRpko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94786209859-2eo6vdfatmtmfp47i9a8gcdlj8qnd5pu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "94786209859-gmtjhfd556vutf59pi4rral1tlee0ndq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cidadeSegura2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

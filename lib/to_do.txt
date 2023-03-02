@@ -1,0 +1,23 @@
+TO DO:
+
+- Arrumar pagina do Maps; (check)
+
+- Adicionar pagina de Politica e Privacidade (Loren Ipsun);
+
+- Pagina de informação (Versao do app, email suporte, sobre o app);
+
+- Ajustar retorno de dados na pagina de editar perfil;
+
+- Implementar opção de upload de imagem de perfil;
+
+- Armazenar e mostrar dados do fomulário;
+
+- Criar uma nova pagina de Home; 
+
+- Permitir troca de tema a partir do botão no topo da tela na pagina de usuário;
+
+- Ajustar pagina de OTP (centralizar o conteudo);
+
+- Adicionar pop-up ao enviar o fomulário; (check)
+
+- Implementar função ao botão de deletar usuário.
