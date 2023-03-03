@@ -34,49 +34,29 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.5
-  firebase_core: ^2.5.0 
+  cupertino_icons: ^1.0.5 #Pacote de icones e temas do iOs
+  firebase_core: ^2.5.0 #inicialização e configuração da plataforma Firebase
   firebase_auth: ^4.2.5 #Autenticção do usuario no FIrebase
-  platform_detect: ^2.0.7
-  pub_semver: ^2.1.3
-  flutter_svg: ^1.1.6
   location: ^4.4.0 #Localição do usuario
-  google_maps_flutter: ^2.2.3
-  geolocator: ^9.0.2
-  line_awesome_flutter: ^2.0.0
-  flutter_screenutil: ^5.6.0
-  animated_theme_switcher: ^2.0.7
-  image_picker: ^0.8.6
-  splashscreen: ^1.3.5
-  flutter_launcher_icons: ^0.11.0
-  firebase_storage: ^11.0.10
-  http: ^0.13.5
-  shared_preferences: ^2.0.17
-  cloud_firestore: ^4.3.1 #Armazena dados na nuvem 
-  firebase_dart: ^1.0.11
-  shared_preferences_android: ^2.0.15
-  shared_preferences_foundation: ^2.1.2
-  shared_preferences_linux: ^2.1.3
-  shared_preferences_windows: ^2.1.3
-  args: ^2.3.2
-  google_maps_flutter_android: ^2.4.3
-  googleapis: ^10.0.0
-  image: ^3.3.0
-  get: ^4.6.5
-  provider: ^6.0.5
-  dio: ^4.0.6
-  flutter_config: ^2.0.0
-  path_provider: ^2.0.12
-  modal_bottom_sheet: ^2.1.2
-  flutter_native_splash: ^2.2.16
-  google_fonts: ^4.0.3
-  flutter_otp_text_field: ^1.1.1
-  otp_text_field: ^1.1.3
+  google_maps_flutter: ^2.2.3 #Mapa
+  geolocator: ^9.0.2 #Geolocalizador
+  line_awesome_flutter: ^2.0.0 #Icones customizados
+  image_picker: ^0.8.6 #Obtem imagens da camera ou galeria
+  splashscreen: ^1.3.5 #(Visual) Adiciona uma imagem a tela de inicialização
+  flutter_launcher_icons: ^0.11.0 #(Visual) Adiciona um icone ao aplicativo
+  firebase_storage: ^11.0.10 #Armazena arquivos como imagens e videos na nuvem
+  http: ^0.13.5 #fazer solicitações HTTP para APIs ou servidores da web e receber respostas para processá-las
+  cloud_firestore: ^4.3.1 #Armazena dados na nuvem
+  googleapis: ^10.0.0 #APIs do Goolge
+  get: ^4.6.5 #Gerenciamento de estados
+  modal_bottom_sheet: ^2.1.2 #exibir folhas modais de material design com mais facilidade e flexibilidade
+  flutter_native_splash: ^2.2.16 #Configurar e exibir uma tela de splash nativa
+  google_fonts: ^4.0.3 #Fontes do Google
+  flutter_otp_text_field: ^1.1.1 #Autenticção de 2 Fatores (2FA)
+  otp_text_field: ^1.1.3 #Campo de texto para código do autenticador
   mask_text_input_formatter: ^2.4.0
-  mobx_codegen: ^2.1.1
-  camera_camera: ^3.0.0-dev
 
-flutter_icons:
+flutter_icons: #Icone do aplicativo
     image_path: "assets/app/icon.png"
     ios: true
     remove_aplpha_ios: true
@@ -84,7 +64,7 @@ flutter_icons:
     adaptive_icon_background: '#FFFFFF'
     adaptive_icon_foreground: 'assets/app/icon-android.png'
 
-flutter_native_splash:
+flutter_native_splash: #Tela de inicio do aplicativo
   color: '#f7f6f1'
   color_dark: '#272727'
   image: 'assets/app/splash.png'
@@ -92,7 +72,7 @@ flutter_native_splash:
   android: true
   ios: true
 
-  android_12:
+  android_12: #Metodo obrigatorio para versões a partir do Android 12
     image: assets/images/splash_screen/city-logo.png
     icon_background_color: '#f7f6f1'
     image_dark: assets/images/splash_screen/city-logo.png
