@@ -3,7 +3,6 @@ import 'package:cidade_segura2/src/repositories/authentication_repository/except
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../../features/core/bottom_nav_bar.dart';
 
 class AuthenticationRepository extends GetxController {

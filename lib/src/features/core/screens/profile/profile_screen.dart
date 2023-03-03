@@ -17,6 +17,8 @@ class ProfileScreen extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
           automaticallyImplyLeading: false,
           title: Text(
             tProfile,
@@ -26,7 +28,7 @@ class ProfileScreen extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: () {},
-              icon: Icon(isDark ? LineAwesomeIcons.sun : LineAwesomeIcons.moon),
+              icon: Icon(isDark ? LineAwesomeIcons.moon : LineAwesomeIcons.sun, color: isDark ? Colors.white : Colors.black),
             ),
           ],
         ),
@@ -56,10 +58,10 @@ class ProfileScreen extends StatelessWidget {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(100),
                             color: tPrimaryColor),
-                        child: const Icon(
+                        child: Icon(
                           LineAwesomeIcons.alternate_pencil,
                           size: 20,
-                          color: Colors.black,
+                          color: isDark ? Colors.white : Colors.black,
                         ),
                       ),
                     ),
@@ -80,9 +82,9 @@ class ProfileScreen extends StatelessWidget {
                       side: BorderSide.none,
                       shape: const StadiumBorder(),
                     ),
-                    child: const Text(
+                    child: Text(
                       tEditProfile,
-                      style: TextStyle(color: tDarkColor),
+                      style: (Theme.of(context).textTheme.headlineMedium),
                     ),
                   ),
                 ),

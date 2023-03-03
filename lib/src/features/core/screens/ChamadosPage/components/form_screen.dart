@@ -1,6 +1,8 @@
 import 'dart:async';
+import 'package:cidade_segura2/src/features/core/screens/ChamadosPage/components/database/form_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 import '../../../../../constants/colors_constants.dart';
 import '../../../../../constants/text_strings.dart';
 import 'buttons/cancel_button.dart';
@@ -31,6 +33,9 @@ class _FormScreenState extends State<FormScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final forms = Provider.of<FormRepository>(context);
+    // formulario = context.watch<FormRepository>();
+
     return Scaffold(
       appBar: AppBar(
         title: const Text(
@@ -349,10 +354,10 @@ class _FormScreenState extends State<FormScreen> {
                   children: [
                     SendFormButton(
                       onPress: () {
-                        FormController().submitForm(
-                          _nomeController.text,
-                          _telefoneController.text,
-                        );
+                        // FormController().submitForm(
+                        //   _nomeController.text,
+                        //   _telefoneController.text,
+                        // );
                         // Navigator.pop(context);
                         // buildShowDialog(context);
 
