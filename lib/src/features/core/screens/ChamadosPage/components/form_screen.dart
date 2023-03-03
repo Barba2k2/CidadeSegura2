@@ -3,7 +3,6 @@ import 'package:cidade_segura2/src/features/core/screens/ChamadosPage/components
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
 import '../../../../../constants/colors_constants.dart';
 import '../../../../../constants/text_strings.dart';
 import 'buttons/cancel_button.dart';

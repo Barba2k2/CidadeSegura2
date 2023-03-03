@@ -40,9 +40,10 @@ final titleTextStyle = TextStyle(
 );
 
 final captionTextStyle = TextStyle(
-    fontSize: ScreenUtil().setSp(spacingUnit.w * 1.3),
-    fontWeight: FontWeight.w200,
-    color: white);
+  fontSize: ScreenUtil().setSp(spacingUnit.w * 1.3),
+  fontWeight: FontWeight.w200,
+  color: white,
+);
 
 final buttonTextStyle = TextStyle(
   fontSize: ScreenUtil().setSp(spacingUnit.w * 1.5),
