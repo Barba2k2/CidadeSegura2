@@ -20,4 +20,8 @@ TO DO:
 
 - Adicionar pop-up ao enviar o fomulário; (check)
 
-- Implementar função ao botão de deletar usuário.
+- Implementar função ao botão de deletar usuário;
+
+- Puxar endereço a partir da loc;
+
+- Exportar dados do formulario em um relatorio.
