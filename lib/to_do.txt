@@ -1,6 +1,6 @@
 TO DO:
 
-- Arrumar pagina do Maps; (check)
+- Arrumar pagina do Maps; 
 
 - Adicionar pagina de Politica e Privacidade (Loren Ipsun);
 

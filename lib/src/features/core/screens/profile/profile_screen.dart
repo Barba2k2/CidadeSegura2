@@ -27,7 +27,10 @@ class ProfileScreen extends StatelessWidget {
           centerTitle: true,
           actions: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                isDark ? Brightness.light : Brightness.dark;
+                debugPrint('Cliquei aqui');
+              },
               icon: Icon(isDark ? LineAwesomeIcons.moon : LineAwesomeIcons.sun, color: isDark ? Colors.white : Colors.black),
             ),
           ],
@@ -55,9 +58,7 @@ class ProfileScreen extends StatelessWidget {
                       child: Container(
                         width: 35,
                         height: 35,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(100),
-                            color: tPrimaryColor),
+                        decoration: BoxDecoration(borderRadius: BorderRadius.circular(100), color: tPrimaryColor),
                         child: Icon(
                           LineAwesomeIcons.alternate_pencil,
                           size: 20,
@@ -68,10 +69,8 @@ class ProfileScreen extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 10),
-                Text(tProfileHeading,
-                    style: Theme.of(context).textTheme.headlineMedium),
-                Text(tProfileSubHeading,
-                    style: Theme.of(context).textTheme.bodyMedium),
+                Text(tProfileHeading, style: Theme.of(context).textTheme.headlineMedium),
+                Text(tProfileSubHeading, style: Theme.of(context).textTheme.bodyMedium),
                 const SizedBox(height: 20),
                 SizedBox(
                   width: 200,

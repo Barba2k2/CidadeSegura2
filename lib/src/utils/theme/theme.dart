@@ -15,7 +15,8 @@ class TAppTheme {
       elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
       inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme,
       bottomNavigationBarTheme:
-          TBottomNavigationBarTheme.lightBottomNavigationBarTheme);
+          TBottomNavigationBarTheme.lightBottomNavigationBarTheme,
+  );
 
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
