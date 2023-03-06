@@ -2,13 +2,11 @@ import 'package:cidade_segura2/src/constants/colors.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'components/dados_form.dart';
 import 'components/form_screen.dart';
 
 class ChamadosPage extends StatefulWidget {
-  final DadosForm? formData;
 
-  const ChamadosPage({Key? key, this.formData}) : super(key: key);
+  const ChamadosPage({Key? key}) : super(key: key);
 
   @override
   _ChamadosPageState createState() => _ChamadosPageState();

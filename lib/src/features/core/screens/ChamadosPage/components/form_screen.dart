@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:cidade_segura2/src/features/core/screens/ChamadosPage/components/database/form_data.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -7,12 +6,10 @@ import '../../../../../constants/colors_constants.dart';
 import '../../../../../constants/text_strings.dart';
 import 'buttons/cancel_button.dart';
 import 'buttons/send_form_button.dart';
-import 'dados_form.dart';
 
 class FormScreen extends StatefulWidget {
-  final Function(DadosForm)? onSubmit;
 
-  const FormScreen({super.key, this.onSubmit});
+  const FormScreen({super.key});
 
   @override
   _FormScreenState createState() => _FormScreenState();
