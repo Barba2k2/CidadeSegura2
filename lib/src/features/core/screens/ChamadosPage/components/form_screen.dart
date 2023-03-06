@@ -16,7 +16,7 @@ class FormScreen extends StatefulWidget {
 }
 
 class _FormScreenState extends State<FormScreen> {
-  final _nomeController = TextEditingController();
+  final _nomeController = TextEditingController(); //Armazena variavel de Texto
   final _telefoneController = TextEditingController();
   final _enderecoController = TextEditingController();
   final _bairroController = TextEditingController();
@@ -24,12 +24,13 @@ class _FormScreenState extends State<FormScreen> {
   final _pontoReferenciaController = TextEditingController();
   final _descricaoController = TextEditingController();
 
-  final _formKey = GlobalKey<FormState>();
-  final _formData = <String, Object>{};
+  final _formKey = GlobalKey<FormState>(); //Cria uma chave global para acessar o estado do formulário
+  final _formData = <String, Object>{}; //Cria um mapa vazio que será usado para armazenar os dados do formulário.
 
-  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance; //Cria uma instância do Firestore, para interagir com o banco de dados Firestore do Firebase.
 
-  void saveData(String name, String phone, String address) {
+  //Salva os dados do formulario no subcolection 'chamados' dentro do documento do usuário no Firestore
+  void saveData(String name, String telefone, String endereco, String bairro, String cidade, String pontoReferencia, String descricao) { 
     CollectionReference users = _firestore.collection('Users');
     DocumentReference userDocRef = users.doc('user_id');
     CollectionReference chamados = userDocRef.collection('chamados');
@@ -37,10 +38,15 @@ class _FormScreenState extends State<FormScreen> {
     chamados
         .add({
           'name': name,
-          'phone': phone,
-          'address': address,
+          'telefone': telefone,
+          'endreço': endereco,
+          'bairro': bairro,
+          'cidade': cidade,
+          'ponto de referencia': pontoReferencia,
+          'descrição': descricao,
         })
-        .then((value) => debugPrint("Dados salvos com sucesso!"))
+        //Mostra no console se os dados foram salvos ou se ocorreu um erro
+        .then((value) => debugPrint("Dados salvos com sucesso!")) 
         .catchError((error) => debugPrint("Falha ao salvar dados: $error"));
   }
 
@@ -311,26 +317,28 @@ class _FormScreenState extends State<FormScreen> {
                     controller: _pontoReferenciaController,
                     onSaved: (pontoReferencia) => _formData['Ponto de Referencia'] = pontoReferencia ?? '',
                   ),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 10), //Espaçamento
                   TextFormField(
+                    //Cria um campo de texto com uma dica (hintText) e um rótulo (labelText) para que o usuário possa inserir a descrição do problema.
                     decoration: InputDecoration(
-                      labelText: 'Descrição do problema',
-                      hintText: 'Luz do poste queimada',
-                      prefixIcon: Icon(Icons.abc_sharp, color: isDark ? white : black),
+                      labelText: 'Descrição do problema', //Rotúlo
+                      hintText: 'Luz do poste queimada', //Dica de texto
+                      //Muda a cor do icone de acordo com o tema do dispositivo do usuario
+                      prefixIcon: Icon(Icons.abc_sharp, color: isDark ? white : black), 
                       hoverColor: whiteGrey,
-                      focusedBorder: const OutlineInputBorder(
+                      focusedBorder: const OutlineInputBorder(//Define o estilo da borda do campo selecionado
                         borderSide: BorderSide(
-                          width: 3,
-                          color: Colors.greenAccent,
+                          width: 2, //Grossura da borda
+                          color: Colors.greenAccent, //Cor da borda
                         ),
-                        borderRadius: BorderRadius.only(
+                        borderRadius: BorderRadius.only( //Define os parametros da borda
                           topRight: Radius.zero,
                           topLeft: Radius.circular(10),
                           bottomRight: Radius.circular(10),
                           bottomLeft: Radius.zero,
                         ),
                       ),
-                      border: const OutlineInputBorder(
+                      border: const OutlineInputBorder( //Define o estilo da borda do campo de texto
                         borderRadius: BorderRadius.only(
                           topRight: Radius.zero,
                           topLeft: Radius.circular(10),
@@ -340,39 +348,32 @@ class _FormScreenState extends State<FormScreen> {
                       ),
                       labelStyle: TextStyle(color: isDark ? white : black),
                     ),
-                    minLines: 1,
-                    maxLines: null,
-                    // validator: (value) {
-                    //   if (value!.isEmpty) {
-                    //     return 'Por favor insira a descrição';
-                    //   }
-                    //   return null;
-                    // },
+                    minLines: 1, //Define o minimo de linhas do campo de texto
+                    maxLines: null, //Permite que expanda conforme o ususario introduz o texto
+                    //Valida o se o campo está vazio, se vazio pede ao usuario que insira um texto
+                    validator: (value) {
+                      if (value!.isEmpty) {
+                        return 'Por favor insira a descrição';
+                      }
+                      return null;
+                    },
                     controller: _descricaoController,
                     onSaved: (description) => _formData['description'] = description ?? '',
                   ),
-                  // -- Widgets para enviar foto e vídeo
-                  // const SizedBox(height: 20),
-                  // Padding(
-                  //   padding: const EdgeInsets.only(left: 8, right: 8),
-                  //   child: Row(
-                  //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  //     children: [
-                  //       const EnviarFotoGaleria(),
-                  //       const EnviarFotoCamera(),
-                  //     ],
-                  //   ),
-                  // ),
                   const SizedBox(height: 15),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      SendFormButton(
+                      SendFormButton( //Widget personalizado para o Botão enviar
                         onPress: () {
                           saveData(
                             _nomeController.text,
                             _telefoneController.text,
                             _enderecoController.text,
+                            _bairroController.text,
+                            _cidadeController.text,
+                            _pontoReferenciaController.text,
+                            _descricaoController.text,
                           );
                           // Navigator.pop(context);
                           // buildShowDialog(context);
