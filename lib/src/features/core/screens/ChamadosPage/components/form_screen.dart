@@ -375,8 +375,8 @@ class _FormScreenState extends State<FormScreen> {
                             _pontoReferenciaController.text,
                             _descricaoController.text,
                           );
-                          // Navigator.pop(context);
-                          // buildShowDialog(context);
+                          Navigator.pop(context);
+                          buildShowDialog(context);
 
                           debugPrint('Dados enviados');
                         },
