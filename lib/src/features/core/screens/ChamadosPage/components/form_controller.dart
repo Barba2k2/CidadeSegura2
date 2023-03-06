@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class FormController {
   final CollectionReference _formCollection =
-      FirebaseFirestore.instance.collection('usuarios/${usuario!.uid}');
+      FirebaseFirestore.instance.collection('usuarios');
 
   Future<void> submitForm(String name, String telefone) async {
     try {
