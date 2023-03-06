@@ -23,24 +23,23 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-      themeMode: ThemeMode.system,
-      defaultTransition: Transition.leftToRightWithFade,
-      transitionDuration: const Duration(milliseconds: 500),
-      // home: const ErrorPage(),
+    return GetMaterialApp( //Widget Meterial App do Pacote Get
+      debugShowCheckedModeBanner: false, //Banner de Debug
+      theme: TAppTheme.lightTheme, //Tema claro
+      darkTheme: TAppTheme.darkTheme, //Tema escuro
+      themeMode: ThemeMode.system, //Tema do sistema (claro ou escuro)
+      defaultTransition: Transition.leftToRightWithFade, //Estilo da Transição/Animação
+      transitionDuration: const Duration(milliseconds: 500), //Tempo da transição
       home: FutureBuilder(
         future: _inicializacao,
         builder: (context, app) {
-          if (app.connectionState == ConnectionState.done) {
-            return const BottomNavBar();
+          if (app.connectionState == ConnectionState.done) { //Verifica se o usuário esta logado
+            return const BottomNavBar(); //Se verdadeiro entra no aplicativo
           }
 
-          if (app.hasError) return const ErrorPage();
+          if (app.hasError) return const ErrorPage(); //Se ocorrer um erro direciona para a pagina de erro
 
-          return const SplashScreen();
+          return const SplashScreen(); //Se falso, retorna a pagina inicial do app
         },
       ),
     );
