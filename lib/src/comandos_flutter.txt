@@ -1,0 +1,5 @@
+flutter pub add "nome do pacote" //adiciona de forma pratica novas dependencias
+
+flutter pub remove "nome do pacote" //remove de forma pratica dependencias adicionadas anteriormente
+
+flutter run //Roda o aplicativo no emulador
