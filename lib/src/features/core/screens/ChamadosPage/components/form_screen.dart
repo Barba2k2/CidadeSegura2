@@ -6,9 +6,9 @@ import '../../../../../constants/colors_constants.dart';
 import '../../../../../constants/text_strings.dart';
 import 'buttons/cancel_button.dart';
 import 'buttons/send_form_button.dart';
+import 'widgets/modal_alert.dart';
 
 class FormScreen extends StatefulWidget {
-
   const FormScreen({super.key});
 
   @override
@@ -27,10 +27,11 @@ class _FormScreenState extends State<FormScreen> {
   final _formKey = GlobalKey<FormState>(); //Cria uma chave global para acessar o estado do formulário
   final _formData = <String, Object>{}; //Cria um mapa vazio que será usado para armazenar os dados do formulário.
 
-  final FirebaseFirestore _firestore = FirebaseFirestore.instance; //Cria uma instância do Firestore, para interagir com o banco de dados Firestore do Firebase.
+  final FirebaseFirestore _firestore =
+      FirebaseFirestore.instance; //Cria uma instância do Firestore, para interagir com o banco de dados Firestore do Firebase.
 
   //Salva os dados do formulario no subcolection 'chamados' dentro do documento do usuário no Firestore
-  void saveData(String name, String telefone, String endereco, String bairro, String cidade, String pontoReferencia, String descricao) { 
+  void saveData(String name, String telefone, String endereco, String bairro, String cidade, String pontoReferencia, String descricao) {
     CollectionReference users = _firestore.collection('Users');
     DocumentReference userDocRef = users.doc('user_id');
     CollectionReference chamados = userDocRef.collection('chamados');
@@ -46,7 +47,7 @@ class _FormScreenState extends State<FormScreen> {
           'descrição': descricao,
         })
         //Mostra no console se os dados foram salvos ou se ocorreu um erro
-        .then((value) => debugPrint("Dados salvos com sucesso!")) 
+        .then((value) => debugPrint("Dados salvos com sucesso!"))
         .catchError((error) => debugPrint("Falha ao salvar dados: $error"));
   }
 
@@ -324,21 +325,24 @@ class _FormScreenState extends State<FormScreen> {
                       labelText: 'Descrição do problema', //Rotúlo
                       hintText: 'Luz do poste queimada', //Dica de texto
                       //Muda a cor do icone de acordo com o tema do dispositivo do usuario
-                      prefixIcon: Icon(Icons.abc_sharp, color: isDark ? white : black), 
+                      prefixIcon: Icon(Icons.abc_sharp, color: isDark ? white : black),
                       hoverColor: whiteGrey,
-                      focusedBorder: const OutlineInputBorder(//Define o estilo da borda do campo selecionado
+                      focusedBorder: const OutlineInputBorder(
+                        //Define o estilo da borda do campo selecionado
                         borderSide: BorderSide(
                           width: 2, //Grossura da borda
                           color: Colors.greenAccent, //Cor da borda
                         ),
-                        borderRadius: BorderRadius.only( //Define os parametros da borda
+                        borderRadius: BorderRadius.only(
+                          //Define os parametros da borda
                           topRight: Radius.zero,
                           topLeft: Radius.circular(10),
                           bottomRight: Radius.circular(10),
                           bottomLeft: Radius.zero,
                         ),
                       ),
-                      border: const OutlineInputBorder( //Define o estilo da borda do campo de texto
+                      border: const OutlineInputBorder(
+                        //Define o estilo da borda do campo de texto
                         borderRadius: BorderRadius.only(
                           topRight: Radius.zero,
                           topLeft: Radius.circular(10),
@@ -364,7 +368,8 @@ class _FormScreenState extends State<FormScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      SendFormButton( //Widget personalizado para o Botão enviar
+                      SendFormButton(
+                        //Widget personalizado para o Botão enviar
                         onPress: () {
                           saveData(
                             _nomeController.text,
@@ -376,7 +381,8 @@ class _FormScreenState extends State<FormScreen> {
                             _descricaoController.text,
                           );
                           Navigator.pop(context);
-                          buildShowDialog(context);
+
+                          const ModalAlert();
 
                           debugPrint('Dados enviados');
                         },
@@ -388,35 +394,6 @@ class _FormScreenState extends State<FormScreen> {
               ),
             ),
           ),
-        ),
-      ),
-    );
-  }
-
-  Future<dynamic> buildShowDialog(BuildContext context) {
-    return showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text(
-              tClose,
-              style: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w500,
-                color: Colors.redAccent,
-              ),
-            ),
-          ),
-        ],
-        title: Text(
-          tThanks,
-          style: Theme.of(context).textTheme.displayMedium,
-        ),
-        content: Text(
-          tDialogMessage,
-          style: Theme.of(context).textTheme.bodyLarge,
         ),
       ),
     );
