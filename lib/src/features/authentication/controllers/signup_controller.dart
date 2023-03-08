@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_null_comparison
+
 import 'package:cidade_segura2/src/features/authentication/models/user_model.dart';
 import 'package:cidade_segura2/src/repositories/authentication_repository/authentication_repository.dart';
 import 'package:cidade_segura2/src/repositories/user_repository/user_repository.dart';

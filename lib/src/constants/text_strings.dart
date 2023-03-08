@@ -1,3 +1,5 @@
+//Classe responsavel por armazenar a maioria das variaveis de texto
+
 // -- Global Texts
 const String tLogin = 'Entrar';
 const String tSingup = 'Cadastrar';
