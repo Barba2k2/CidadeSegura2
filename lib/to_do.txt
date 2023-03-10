@@ -10,7 +10,9 @@ TO DO:
 
 - Implementar opção de upload de imagem de perfil;
 
-- Armazenar e mostrar dados do fomulário;
+- Armazenar dados do fomulário; (ok)
+
+- Mostrar dados do fomulário;
 
 - Criar uma nova pagina de Home; 
 
@@ -18,7 +20,7 @@ TO DO:
 
 - Ajustar pagina de OTP (centralizar o conteudo);
 
-- Adicionar pop-up ao enviar o fomulário; (check)
+- Adicionar pop-up ao enviar o fomulário; (ok)
 
 - Implementar função ao botão de deletar usuário;
 
