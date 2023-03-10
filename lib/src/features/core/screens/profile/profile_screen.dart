@@ -5,6 +5,7 @@ import '../../../../constants/colors.dart';
 import '../../../../constants/image_strings.dart';
 import '../../../../constants/sizes.dart';
 import '../../../../constants/text_strings.dart';
+import 'informations/informations_page.dart';
 import 'update_profile_screen.dart';
 import 'widgtes/profile_menu.dart';
 
@@ -107,14 +108,11 @@ class ProfileScreen extends StatelessWidget {
                   onPress: () {},
                 ),
                 ProfileMenuWidget(
-                  title: 'Informações',
+                  title: 'Política de Privacidade',
                   icon: LineAwesomeIcons.info,
-                  onPress: () {},
-                ),
-                ProfileMenuWidget(
-                  title: 'Sobre o App',
-                  icon: LineAwesomeIcons.alternate_ticket,
-                  onPress: () {},
+                  onPress: () {
+                    Get.to(() => const InformationPage());
+                  },
                 ),
                 ProfileMenuWidget(
                   title: 'Sair',
@@ -122,6 +120,17 @@ class ProfileScreen extends StatelessWidget {
                   textColor: Colors.red,
                   endIcon: false,
                   onPress: () {},
+                ),
+                const Divider(),
+                const SizedBox(height: 15),
+                Text(
+                  tDevelopBy + tPerson,
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+                const SizedBox(height: 5),
+                Text(
+                  tVersion,
+                  style: Theme.of(context).textTheme.headlineSmall,
                 ),
               ],
             ),
