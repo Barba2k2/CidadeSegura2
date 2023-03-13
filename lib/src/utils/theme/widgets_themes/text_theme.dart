@@ -15,13 +15,13 @@ class TTextTheme {
     headlineSmall: GoogleFonts.inter(
         fontSize: 14, fontWeight: FontWeight.w600, color: tDarkColor),
     headlineMedium: GoogleFonts.inter(
-        fontSize: 20, fontWeight: FontWeight.bold, color: tDarkColor),
+        fontSize: 16, fontWeight: FontWeight.bold, color: tDarkColor),
     headlineLarge: GoogleFonts.inter(
         fontSize: 28, fontWeight: FontWeight.w600, color: tDarkColor),
     titleLarge: GoogleFonts.inter(
-        fontSize: 14, fontWeight: FontWeight.w600, color: tDarkColor),
+        fontSize: 18, fontWeight: FontWeight.w600, color: tDarkColor),
     bodyLarge: GoogleFonts.inter(
-        fontSize: 14, fontWeight: FontWeight.normal, color: tDarkColor),
+        fontSize: 16, fontWeight: FontWeight.normal, color: tDarkColor),
     bodyMedium: GoogleFonts.inter(
         fontSize: 14, fontWeight: FontWeight.normal, color: tDarkColor),
     labelMedium: GoogleFonts.inter(
@@ -37,13 +37,13 @@ class TTextTheme {
     displaySmall: GoogleFonts.inter(
         fontSize: 24, fontWeight: FontWeight.w700, color: tWhiteColor),
     headlineMedium: GoogleFonts.inter(
-        fontSize: 20, fontWeight: FontWeight.w600, color: tWhiteColor),
+        fontSize: 16, fontWeight: FontWeight.w600, color: tWhiteColor),
     headlineSmall: GoogleFonts.inter(
         fontSize: 14, fontWeight: FontWeight.w600, color: tWhiteColor),
     titleLarge: GoogleFonts.inter(
-        fontSize: 14, fontWeight: FontWeight.w600, color: tWhiteColor),
+        fontSize: 18, fontWeight: FontWeight.w600, color: tWhiteColor),
     bodyLarge: GoogleFonts.inter(
-        fontSize: 14, fontWeight: FontWeight.normal, color: tWhiteColor),
+        fontSize: 16, fontWeight: FontWeight.normal, color: tWhiteColor),
     bodyMedium: GoogleFonts.inter(
         fontSize: 14, fontWeight: FontWeight.normal, color: tWhiteColor),
     labelMedium: GoogleFonts.inter(

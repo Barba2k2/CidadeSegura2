@@ -16,22 +16,23 @@ class ErrorPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          mainAxisAlignment: MainAxisAlignment.center, //Alinhamento do widget no eixo horizontal
+          children: [ //Especifica Widgets Filhos
             Center(
               child: Text(
                 'Um erro inesperado aconteceu, volte e tente novamente!',
-                textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.displayLarge,
+                textAlign: TextAlign.center, //Alinhamento do texto
+                style: Theme.of(context).textTheme.displayLarge, //Define um estilo de texto de acordo com o contexto
               ),
             ),
-            const SizedBox(height: 15),
-            SizedBox(
+            const SizedBox(height: 15), //Se vazia usada para espaçar Widgets
+            SizedBox( //Nesse caso, usada para definir um tamanho vertical para o botao
               width: 150,
               child: ElevatedButton(
-                onPressed: () => Navigator.pop(context),
+                onPressed: () => Navigator.pop(context), //Usada para navegar de volta para a tela anterior na hierarquia de telas
                 child: Text(
-                  tBack.toUpperCase(),
+                  tBack.toUpperCase(), //tBack = String predefinida em outra classe 
+                  //toUpperCase = Deixa o texto em caixa alta
                   style: Theme.of(context).textTheme.headlineMedium,
                 ),
               ),

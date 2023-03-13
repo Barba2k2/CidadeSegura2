@@ -1,7 +1,6 @@
 import 'package:cidade_segura2/error_page.dart';
 import 'package:cidade_segura2/src/features/authentication/screens/splash_screen/splash_screen.dart';
 import 'package:cidade_segura2/src/features/authentication/services/google_sign_in.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -42,9 +41,9 @@ class App extends StatelessWidget {
             if (app.connectionState == ConnectionState.done) {
               return const BottomNavBar();
             }
-    
+
             if (app.hasError) return const ErrorPage();
-    
+
             return const SplashScreen();
           },
         ),

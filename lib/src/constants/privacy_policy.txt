@@ -1,0 +1,256 @@
+Política de privacidade
+Sua privacidade é importante para nós (a "equipe", "nós" ou "nos"). Esta Política de Privacidade (a "Política") descreve como nós coletar, usar, armazenar e processar dados pessoais que coletamos ou recebemos de ou sobre você.
+
+Consequentemente, esta Política é uma Política de Privacidade mestra, e as referências aqui contidas aos "Serviços" significarão os Aplicativos, os Serviços da Web e os Sites coletivamente e/ou individualmente (conforme o caso).
+
+Ao usar nosso Serviço, você concorda com os termos desta política e consente expressamente com a coleta, uso e divulgação de suas informações pessoais de acordo com esta política.
+
+1. QUE INFORMAÇÕES PESSOAIS RECOLHEMOS?
+
+Quando você usa ou acessa nossos Serviços ou interage conosco, podemos coletar uma variedade de informações sobre você e outros, conforme descrito abaixo. Tais informações incluem, mas não estão limitadas a, informações sobre você que está em uma forma que nos permite identificá-lo por conta própria ou em combinação com outros disponíveis informações (suas "informações pessoais").
+
+um. Informações que você nos fornece.
+
+Obtemos certas informações quando você as fornece a nós: por exemplo, quando você entra em contato conosco sobre nossos Serviços, configurar o perfil da sua conta, acessar e usar nossos Serviços, quando você compra moeda virtual ou produtos através de nossos Serviços, relatar um problema, candidatar-se a um emprego conosco ou comunicar-se conosco por telefone, e-mail, via terceiros sites de mídia social ou de outra forma. Os tipos de informação podem incluir:
+
+Detalhes pessoais, como informações que identificam você ou suas características pessoais, incluindo suas nome, ID de usuário, endereço de e-mail, número de telefone, detalhes de contato, sua data de nascimento ou fotografia.
+Interesses, como suas músicas e programas de televisão favoritos
+Credenciais, como senhas, dicas de senha ou informações de segurança semelhantes usadas para autenticação e acesso à conta
+Dados de marketing, como suas preferências em receber marketing de nós, ou informações sobre seu uso de nossos Serviços.
+Dados do candidato, tais como histórico de emprego, qualificações, qualificações académicas e registos de educação, e qualquer outra informação que você nos forneça ao se candidatar a um emprego conosco, por exemplo, em seu curriculum vitae, uma carta de apresentação, num formulário de candidatura ou durante uma entrevista, ou que tenhamos recebido de uma agência de recrutamento ou provedor de verificação de antecedentes.
+b. Conteúdo gerado pelo usuário.
+
+Você pode usar nossos Serviços para criar perfis e fazer upload de imagens e áudio. Tais atividades são regidas pelo nosso Termos de Serviço. Além disso, tais postagens podem aparecer em outros sites e aplicativos móveis, ou quando as pesquisas são executado sobre o assunto da sua postagem. Sempre que você divulgar voluntariamente informações pessoais publicamente páginas da Web ou aplicativos visíveis, essas informações estarão disponíveis publicamente e poderão ser coletadas e usadas por outros e reproduzidos em sites ou serviços sobre os quais não temos controle. Mais informações estão contidas em as diretrizes de segurança e práticas recomendadas on-line da Zedge.
+
+c. Informações que coletamos automaticamente.
+
+Quando você usa ou acessa nossos Serviços, coletamos certas informações sobre você, seu uso de nossos Serviços e seu interações connosco e com a nossa publicidade. através de meios automatizados. Essas informações podem incluir (mas não são limitado a):
+
+Informações do dispositivo, como seu endereço IP (Internet Protocol), identificadores exclusivos de dispositivo, IDs de pacote, dispositivo dados (incluindo marca, marca e modelo), ID anônimo para publicidade ou gerado por rede social de terceiros, sistema operacional, código da operadora (somente Android), nome da operadora, código da operadora móvel, informações da rede móvel, informações de computador e conexão, tipo de navegador, aplicativos disponíveis, atividade de navegação, data e hora, e as informações de localização do dispositivo são imprecisas ou genéricas (por exemplo, cidade, região, país), país, idioma) ou exatas localização (por exemplo, coordenadas GPS ou outras informações de localização). Também podemos coletar quaisquer números de telefone a partir do qual você entra em contato conosco. Dados de registro, incluindo informações relacionadas às suas atividades em nossos Serviços, incluindo informações sobre como você interagir com nossos Serviços ou qualquer conteúdo ou publicidade neles, estatísticas sobre suas visualizações de página e tráfego para e de nossos Serviços, e o número de bytes transferidos, hiperlinks clicados e outras ações que você toma. Nosso Os Serviços também podem rastrear informações como o URL que você visitou antes de chegar ao Serviço e o URL que você visita visite a seguir. Quando você baixa um de nossos aplicativos móveis e/ou se registra conosco, também geramos identificadores para você. Esses identificadores são gerados aleatoriamente e podem ser redefinidos quando você atualiza ou redefine seu dispositivo.
+
+Combinamos essas informações com as informações que você nos fornece e coletamos sobre você. Usaremos isso informações e as informações pessoais combinadas para os fins descritos nesta Política de Privacidade (dependendo de o tipo de informação que recebemos).
+
+d. Cookies e tecnologias similares.
+Tal como acontece com a maioria dos outros sites e plataformas digitais, nós e nossos prestadores de serviços usamos cookies e similares. tecnologias (como pixel tags e web beacons) e identificadores. forma de um dispositivo reajustável para coletar e armazenar determinadas informações sobre os usuários de nossos Serviços, para melhorar nossos Serviços e publicidade e para nos ajudar lembre-se de você e de suas preferências. você quando você revisitar nossos Serviços. Para mais informações sobre as nossas atividades nesta área e para obter uma lista dos cookies que utilizamos, consulte a nossa Política de Cookies.
+
+e. Informações que coletamos de outras fontes.
+Contas de Terceiros. Você pode se inscrever e fazer login nos Serviços usando as contas criadas com produtos e serviços de terceiros, como Facebook, Google ou Apple (coletivamente, "Terceiros" Contas"). Se você acessar os Serviços com Contas de Terceiros, coletaremos informações que você tem concordou em disponibilizar, como seu nome, endereço de e-mail, informações de perfil (incluindo foto de perfil) e preferências. Essas informações são coletadas pelo provedor da Conta de Terceiros e são fornecidas à Zedge sob suas políticas de privacidade. Você geralmente pode controlar as informações que recebemos dessas fontes usando o controles de privacidade em sua Conta de Terceiros.
+
+Provedores de Terceiros. Também obtemos informações pessoais de outras fontes. Nós protegemos isso informações de acordo com as práticas descritas nesta Política de Privacidade e quaisquer restrições adicionais impostas pela fonte dos dados. Essas fontes podem incluir:
+
+Prestadores de serviços de segurança que nos fornecem informações para proteger nossos sistemas, evitar fraudes e nos ajudar proteger a segurança dos nossos Serviços;
+Provedores de dados on-line e off-line, dos quais obtemos dados demográficos, baseados em interesses e on-line agregados dados relacionados à publicidade; e
+Fontes publicamente disponíveis, como bancos de dados publicamente disponíveis e plataformas de mídia social.
+2. COMO USAMOS AS INFORMAÇÕES PESSOAIS?
+
+Nós só processamos suas informações pessoais para os fins descritos nesta Política de Privacidade, onde temos uma base legal para fazê-lo de acordo com as leis de proteção de dados aplicáveis. A base jurídica dependerá das finalidades para que processamos suas informações pessoais e as leis de proteção de dados que se aplicam às nossas atividades em seu jurisdição.
+
+Usaremos suas informações pessoais para os seguintes fins, conforme necessário, para cumprir nossas obrigações sob nosso contrato com você, ou para responder a perguntas ou tomar medidas Suas necessidades antes de assinar com você:
+
+Para processar o seu registo, encomenda, pagamento ou para facilitar a sua utilização do Website ou Mobile Aplicação;
+Para lhe fornecer os Serviços, gerir a sua conta e fornecer-lhe apoio ao cliente;
+Enviar alertas técnicos, atualizações, avisos de segurança e comunicações administrativas;
+Para verificar sua identidade, investigar e impedir atividades fraudulentas, acesso não autorizado aos nossos Serviços, e outras atividades ilegais;
+Para gerir a sua inscrição, pagamento e participação nos nossos eventos; e
+Para fornecer informações pessoais a terceiros, conforme estabelecido nesta Política de Privacidade.
+Usamos suas informações pessoais para os seguintes fins, conforme necessário para certos interesses legítimos ou quando você consentiu com tal processamento na medida exigida pela lei aplicável (consentimento Essa ideia pode ser retirado a qualquer momento):
+
+Analisar como os Serviços estão sendo utilizados;
+Para ajudar a personalizar o conteúdo e a publicidade nos Serviços;
+Para reconhecer padrões e tendências de uso e para projetar melhor os Serviços para melhorar a experiência do usuário, ambos em termos de conteúdo e facilidade de uso, e para transmitir informações através de notificações no aplicativo, push notificações ou campanhas através de serviços externos;
+Para lhe fornecer ofertas e recomendações, e para adaptar e melhorar a sua experiência no Website ou no Aplicativo Móvel;
+Para fornecer Serviços Baseados em Localização Avançados e para veicular publicidade direcionada por localização, incluindo: comunicar com prestadores de serviços terceiros que nos tenham consentido em manter essas informações confidencial e usá-lo apenas na medida do necessário para executar os serviços solicitados por nós;
+Para notificá-lo de quaisquer Serviços novos ou alterados e para se comunicar com você sobre produtos ou serviços que possam ser do seu interesse; para confirmar, atualizar e melhorar nossos registros, e para analisar e desenvolver nosso relacionamento com você;
+Para confirmar, atualizar e melhorar nossos registros, e para analisar e desenvolver nosso relacionamento com você;
+Para lidar com consultas e reclamações feitas por ou sobre você relacionadas aos Serviços;
+Para buscar seus pontos de vista ou comentários sobre os Serviços;
+Para realizar treinamentos relacionados aos nossos Serviços;
+Para operações administrativas e técnicas internas para manter a segurança dos Serviços e manter nossa rede e sistemas de informação atualizados, corrigidos e seguros;
+Monitorar o cumprimento das regras que regem os Serviços;
+Para solicitar que você preencha pesquisas e/ou questionários de pesquisa relacionados a serviços atuais ou futuros para que possamos oferecer;
+Para (i) cumprir as obrigações legais; ii) responder aos pedidos das autoridades competentes; (iii) proteger a nossa Interesses; (iv) proteger os nossos direitos, segurança ou propriedade, e/ou os dos nossos parceiros, do utilizador ou de terceiros; e (v) fazer cumprir ou defender os nossos direitos legais.
+No caso de você utilizar uma parte dos Serviços que exija sua localização GPS específica, obteremos o seu consentimento antes de o fazer.
+
+Se você se inscrever para trabalhar para nós, usaremos suas informações pessoais das seguintes maneiras, conforme necessário em nosso interesses legítimos, ou quando você tiver dado seu consentimento para tal processamento na medida exigida por lei aplicável (tal consentimento pode ser retirado a qualquer momento, sujeito a restrições permitidas por tal lei) e para decidir se deseja celebrar um contrato com você:
+
+Para avaliar suas habilidades, qualificações e adequação para a função para a qual você se candidatou;
+Realizar verificações de antecedentes e de referência, quando aplicável;
+Para comunicar consigo sobre o processo de recrutamento;
+Manter registros relacionados aos nossos processos de contratação; e
+Para cumprir os requisitos legais ou regulamentares
+3. QUANDO COMPARTILHAMOS INFORMAÇÕES PESSOAIS?
+
+Existem circunstâncias em que desejamos compartilhar ou somos obrigados a divulgar suas informações pessoais a terceiros Partes. Isso só ocorrerá de acordo com a lei aplicável e para os fins listados nesta Privacidade. Política.
+
+Na medida permitida pela lei aplicável, podemos compartilhar suas informações pessoais com o seguinte terceiro partes para os fins listados nesta Política de Privacidade:
+
+Nossas empresas afiliadas e escritórios.
+Nossos consultores profissionais. Incluindo nossos auditores, contadores, advogados, consultores e forenses de TI Especialistas.
+Provedores de serviços terceirizados confiáveis. Incluindo os prestadores que prestam serviços em nosso nome em conexão com nossos Serviços. Os serviços prestados por esses terceiros incluem serviços no seguinte categorias: processamento de pagamentos em nosso nome, envio de comunicações de marketing em nosso nome, autenticar identidades em nosso nome, ajudando-nos a criar ou manter nossos bancos de dados, ajudando-nos a pesquisar ou analisar dados relacionados aos visitantes de nossos Serviços e manter a segurança de nossos Serviços serviços de hospedagem em nuvem, serviços de suporte de back-end, serviços de suporte de análise e visualização de dados, serviços de seguros e serviços de casa de correio encomendados.
+Outra pessoa jurídica. A título temporário ou permanente, conforme necessário para efeitos de uma empresa comum, colaboração, financiamento, venda, fusão, reorganização, alteração de forma jurídica, dissolução ou evento similar.
+Uma organização sucessora ou outra entidade jurídica. Em caso de fusão, financiamento, aquisição ou dissolução, transição ou processo que envolva a venda, transferência, alienação ou divulgação de todo ou um parte do nosso negócio ou ativos. Exceto na medida exigida pela lei aplicável, não garantimos que qualquer entidade que receba suas informações em conexão com uma dessas transações cumprirá com todas as os termos desta Política de Privacidade após tal transação.
+Proteção contra fraudes e ameaças. Podemos divulgar suas informações pessoais a autoridades públicas e outros terceiros partes como advogados, consultores ou especialistas forenses de TI, quando obrigados ou autorizados a fazê-lo por lei, regulamentos aplicáveis, solicitações governamentais e quase governamentais, ordens judiciais ou intimações, e para proteger nossos direitos, investigar, prevenir ou tomar medidas em relação a atividades suspeitas ou reais proibidas, incluindo mas não se limita a fraudes e situações que envolvam potenciais ameaças à segurança física de qualquer pessoa. Exceto na medida proibida pela lei aplicável, reservamo-nos o direito de divulgar as informações que coletamos à lei execução ou outros funcionários do governo, como nós, a nosso exclusivo e absoluto critério, julgarmos necessário ou apropriado, para proteger nossos Serviços, para cumprir obrigações legais ou realizar tarefas no público interesse.
+
+Podemos compartilhar informações agregadas ou anônimas que não podem identificá-lo com terceiros, incluindo, mas não limitado a consultores, anunciantes, provedores de análise e investidores, com a finalidade de conduzir negócios e melhorar os Serviços.
+
+Exigimos que todos os terceiros respeitem a segurança de suas informações pessoais e as tratem de acordo com a lei. Não permitimos que nossos prestadores de serviços terceirizados usem suas informações pessoais para seus próprios finalidades e apenas permitir que eles processem suas informações pessoais para fins específicos e de acordo com nossas instruções.
+
+4. SEGURANÇA
+
+Estamos preocupados em salvaguardar a confidencialidade das suas informações. Nós fornecemos físico, eletrônico, e salvaguardas processuais para proteger as informações que processamos e mantemos. Por exemplo, limitamos o acesso a isso informações para funcionários e contratados autorizados que precisam saber essas informações para operar, desenvolver ou melhorar os nossos serviços. Por favor, esteja ciente de que, embora nos esforcemos para fornecer segurança razoável para informações que processamos e mantemos, nenhum sistema de segurança pode impedir todas as possíveis violações de segurança.
+
+5. CRIANÇAS
+
+Nós não coletamos ou armazenamos intencionalmente informações pessoais de qualquer pessoa com menos de 13 anos de idade, ou idade mais alta como exigido pela lei aplicável, a menos ou exceto conforme permitido pela lei aplicável. QUALQUER PESSOA QUE VISITE QUALQUER UM DOS OS SITES OU USOS DE QUALQUER UM DOS APLICATIVOS MÓVEIS NOS DECLARAM QUE ELES TÊM 13 ANOS DE IDADE OU MAIS OU MAIS IDADE CONFORME EXIGIDO PELA LEI APLICÁVEL E LEU E ADERIRÁ ÀS NOSSAS PRÁTICAS RECOMENDADAS E DE SEGURANÇA ON-LINE DIRETRIZES. Se formos informados de que recebemos informações pessoais de alguém com menos de 13 anos, ou tal idade mais elevada, conforme exigido pela lei aplicável. Usaremos esforços razoáveis para remover essas informações do nosso arquivo.
+
+6. ALTERAÇÕES NA POLÍTICA DE PRIVACIDADE
+
+Podemos alterar esta Política de tempos em tempos. A data efetiva da Política alterada será após a publicação do Política alterada, a menos que uma data diferente seja especificada. Seu acesso ou uso continuado dos Serviços após o data efetiva da Política alterada, constituirá a sua aceitação da Política alterada. Em qualquer caso, se você não concorda com a Política alterada, podemos encerrar sua conta de Aplicativo ou Serviço Web.
+
+7. TRANSFERÊNCIA DE INFORMAÇÕES PESSOAIS
+
+As informações que coletamos são armazenadas nos Estados Unidos e estão sujeitas às leis federais e estaduais dos EUA. Se você é acessando nossos Serviços de outras jurisdições, observe que você está transferindo suas informações pessoais para nós nos Estados Unidos, onde as leis de proteção de dados e privacidade podem ser menos rigorosas do que as do seu país Leis.
+
+Ao usar nossos Serviços, você confirma que suas informações pessoais serão acessadas ou transferidas para nós por nós em as jurisdições onde operamos (incluindo, sem limitação, nos Estados Unidos, Noruega e Lituânia) e acessado ou de outra forma transferido para nossos funcionários, afiliados, parceiros e prestadores de serviços em todo o world, de acordo com esta Política de Privacidade.
+
+Quando exigido pela lei aplicável, tomaremos as medidas apropriadas para garantir a proteção adequada do seu informações pessoais quando são transferidas internacionalmente e, se necessário, solicitar o seu consentimento prévio. amigo. Essas medidas podem incluir a utilização de acordos de transferência de dados ou de mecanismos formais de transferência, tais como acordos contratuais. Disposições aprovadas por uma autoridade responsável pelos dados. Por exemplo, se você estiver localizado no EEE, poderemos armazenar seus dados pessoais informações conforme descrito nesta Política de Privacidade fora do EEE. Quando transferimos informações pessoais do EEE para um terceiro localizado num país fora do EEE que não seja reconhecido pela Comissão Europeia ou outro autoridade relevante, para garantir um nível adequado de proteção, Nós executamos várias etapas, incluindo implementar as ferramentas de transferência de dados necessárias, como termos contratuais padrão aprovados pela União Europeia Comissão, ou selecionando destinatários com um Código de Conduta vinculativo. empresa ("BCR"), para ajudar a proteger a sua e proteger suas informações pessoais.
+
+8. SERVIÇOS DE TERCEIROS
+
+Por favor, esteja ciente de que, ao usar os Serviços, você pode ser direcionado (por meio de hiperlinks ou outros meios) para, ou ser capaz de para interagir com sites, aplicativos, serviços e comunidades on-line de terceiros que não são afiliados a nós (como Facebook, YouTube). Além disso, se os Serviços se integrarem a um serviço de terceiros, o aplicativo interface de programação (API) que executa a integração permitirá que o terceiro relevante o sirva determinados conteúdos, bem como aceder a alguns dos conteúdos da sua conta.
+
+Por exemplo, se você deseja carregar ou compartilhar o Conteúdo da sua Conta com um serviço integrado de terceiros como o YouTube ou o TikTok, ou para fazer uso de determinadas funcionalidades nesses serviços, a API habilitará o terceiros aplicáveis para acessar o Conteúdo da sua Conta (como sua biblioteca de fotos).
+
+Além disso, quando você paga por serviços ou itens baseados em taxas, seu pagamento será processado por pagamento de terceiros processadores, como o mecanismo de compra no aplicativo do Google ou da Apple. Quaisquer dados pessoais que você fornecer em conexão com isso é fornecido ao terceiro aplicável. Nós não controlamos, e não somos responsáveis por, a privacidade práticas de tais terceiros, ou para o seu conteúdo, produtos e serviços, e nós encorajamos você a ler o termos e condições e políticas de privacidade de cada terceiro que você optar por usar ou interagir.
+
+9. ACESSO E ALTERAÇÕES ÀS INFORMAÇÕES PESSOAIS; ENCERRAMENTO DA CONTA
+
+Você pode, a qualquer momento, revisar ou alterar suas informações de identificação pessoal acessando as configurações da sua conta. Mediante sua solicitação por meio das configurações da sua conta, desativaremos ou excluiremos suas informações de conta e contato de nossos bancos de dados ativos de acordo com nossa política de desativação e a lei aplicável.
+
+Se você decidir excluir sua Conta, poderá fazê-lo enviando um e-mail para buithuy.june@gmail.com. Se você encerrar sua Conta, qualquer associação entre sua Conta e os dados pessoais que armazenamos não será mais acessível através da sua Conta. No entanto, dada a natureza do compartilhamento em determinados Serviços, qualquer atividade pública em sua Conta antes da exclusão permanecerá armazenado em nossos servidores e permanecerá acessível ao público.
+
+10. OS SEUS DIREITOS
+
+Você tem o direito de acessar, atualizar ou excluir seus dados pessoais
+
+Os seguintes direitos de titular de dados se aplicam se você estiver no EEE e podem se aplicar a você em outras jurisdições:
+
+Para saber quais dados pessoais estão sendo coletados sobre você;
+Para acessar os dados pessoais sobre você que armazenamos em nossos sistemas (pelos quais nos reservamos o direito de cobrar uma taxa administrativa adequada, quando permitido pela lei aplicável);
+Para que possamos atualizá-lo ou corrigi-lo (se for impreciso ou enganoso);
+Para que possamos excluí-lo (embora possa haver circunstâncias em que somos obrigados a reter seu pessoal dados, por exemplo, para o estabelecimento, exercício ou defesa de ações judiciais);
+Você tem o direito de se opor ou solicitar a restrição do processamento de dados pessoais;
+Você tem o direito à portabilidade de dados. Isso significa que você pode ter o direito de receber seus dados pessoais em um formato estruturado, comumente usado e legível por máquina, e que você tem o direito de transmitir isso dados para outro controlador;
+Você tem o direito de se opor à criação de perfil;
+Tem o direito de saber se os seus dados pessoais são vendidos ou divulgados e a quem;
+Tem o direito de dizer não à venda dos seus dados pessoais;
+Você tem o direito de retirar seu consentimento a qualquer momento. Por favor, note que pode haver circunstâncias em que temos o direito de continuar a processar os seus dados pessoais, em particular se o processamento for necessário para cumprir as nossas obrigações legais e regulamentares. Além disso, observe que a retirada do consentimento não deve afetar a licitude do tratamento com base no consentimento antes da sua retirada;
+Você também tem o direito de solicitar certos detalhes da base na qual seus dados pessoais são transferidos fora do EEE, mas os acordos de transferência de dados e/ou outros detalhes podem precisar ser parcialmente redigidos para razões de sigilo comercial;
+Se você deseja exercer qualquer um desses direitos, entre em contato conosco (consulte a seção "Fale Conosco"). Por favor, note que em determinadas circunstâncias, podemos não ser a parte que detém os seus dados pessoais e podemos encaminhá-lo para o (como o App Marketplace) que o faz. Sujeito a considerações legais e outras considerações permitidas, fazer esforços razoáveis para honrar o seu pedido prontamente de acordo com a lei aplicável ou informá-lo se nós Solicite mais informações para satisfazer o seu pedido.
+
+Ao processar o seu pedido, podemos pedir-lhe informações adicionais para confirmar ou verificar a sua identidade e para fins de segurança, antes de processar ou honrar o seu pedido. Reservamo-nos o direito de cobrar uma taxa quando permitido por lei, por exemplo, se o seu pedido for manifestamente infundado ou excessivo. No caso de o seu o pedido afetaria negativamente os direitos e liberdades de terceiros (por exemplo, afetaria o dever de confidencialidade que devemos a outros) ou se tivermos o direito legal de lidar com o seu pedido de uma forma diferente do que o inicialmente solicitado, abordaremos o seu pedido na medida do possível, tudo de acordo com lei aplicável.
+
+11. INFORMAÇÃO PARA OS CONSUMIDORES CALIFONIANOS
+
+Esta parte do documento integra-se e complementa as informações contidas no resto da privacidade e é fornecido pela empresa que executa este Aplicativo e, se for o caso, seu pai, subsidiárias e afiliadas (para os fins desta seção, referidas coletivamente como "nós", "nos", "nosso").
+
+As disposições contidas nesta seção se aplicam a todos os Usuários que são consumidores residentes no estado de Califórnia, Estados Unidos da América, de acordo com "The California Consumer Privacy Act of 2018" (Os usuários são referidos abaixo, simplesmente como "você", "seu", "seu"), e, para esses consumidores, estas disposições substituem qualquer outras disposições possivelmente divergentes ou conflitantes contidas na política de privacidade.
+
+Esta parte do documento usa o termo "informações pessoais" como é definido em The California Consumer Lei de Privacidade (CCPA).
+
+um. Categorias de informações pessoais coletadas, divulgadas ou vendidas
+
+Nesta seção, resumimos as categorias de informações pessoais que coletamos, divulgamos ou vendemos e os seus objectivos. Você pode ler sobre essas atividades em detalhes na seção intitulada "Detalhado informações sobre o processamento de Dados Pessoais" neste documento.
+
+Informações que coletamos: as categorias de informações pessoais que coletamos
+Coletamos as seguintes categorias de informações pessoais sobre você: identificadores, comerciais informações, informações de internet, dados de geolocalização e informações inferidas.
+
+Não coletaremos categorias adicionais de informações pessoais sem notificá-lo.
+
+Como coletamos informações: quais são as fontes das informações pessoais que coletamos?
+Coletamos as categorias acima mencionadas de informações pessoais, direta ou indiretamente, de você quando você usa este aplicativo.
+
+Por exemplo, você fornece diretamente suas informações pessoais quando envia solicitações por meio de quaisquer formulários neste documento. Aplicação. Você também fornece informações pessoais indiretamente quando navega neste Aplicativo, como pessoal as informações sobre você são automaticamente observadas e coletadas. Finalmente, podemos coletar suas informações pessoais de terceiros que trabalham conosco em conexão com o Serviço ou com o funcionamento deste Aplicativo e suas características.
+
+Como usamos as informações que coletamos: compartilhamento e divulgação de suas informações pessoais com terceiros para fins comerciais
+Podemos divulgar as informações pessoais que coletamos sobre você a terceiros para fins comerciais. Neste caso, entramos em um contrato por escrito com esse terceiro que exige que o destinatário mantenha o pessoal informações confidenciais e não utilizá-las para qualquer ou outros fins que não os necessários para o desempenho do acordo.
+
+Também podemos divulgar suas informações pessoais a terceiros quando você explicitamente nos pedir ou nos autorizar a fazê-lo, a fim de lhe fornecer o nosso Serviço.
+
+Para saber mais sobre as finalidades do processamento, consulte a seção relevante deste documento.
+
+Venda de suas informações pessoais
+Para os nossos propósitos, a palavra "venda" significa qualquer "venda, aluguel, liberação, divulgação, divulgação, fabricação disponíveis, transferindo ou comunicando oralmente, por escrito ou por meios eletrônicos, de um consumidor informações pessoais da empresa para outra empresa ou um terceiro, por dinheiro ou outro consideração valiosa".
+
+Isso significa que, por exemplo, uma venda pode acontecer sempre que um aplicativo veicula anúncios ou faz análises estatísticas. no tráfego ou visualizações, ou simplesmente porque usa ferramentas como plugins de redes sociais e afins.
+
+Seu direito de optar por não vender informações pessoais
+Você tem o direito de optar por não participar da venda de suas informações pessoais. Isso significa que sempre que você nos solicitar para parar de vender os seus dados, acataremos o seu pedido. Tais pedidos podem ser feitos livremente, a qualquer momento, sem enviando qualquer solicitação verificável, simplesmente seguindo as instruções abaixo.
+
+Instruções para desativar a venda de informações pessoais
+Se você gostaria de saber mais, ou exercer o seu direito de optar por sair em relação a todas as vendas realizadas por este Aplicação, tanto on-line e off-line, você pode entrar em contato conosco para mais informações usando os detalhes de contato fornecido neste documento.
+
+Quais são as finalidades para as quais usamos suas informações pessoais?
+Podemos usar suas informações pessoais para permitir o funcionamento operacional deste Aplicativo e recursos do mesmo ("fins comerciais"). Nesses casos, suas informações pessoais serão processadas de forma necessária e proporcional ao fim comercial para o qual foi recolhido, e estritamente dentro dos limites de fins operacionais compatíveis.
+
+Também podemos usar suas informações pessoais por outros motivos, como para fins comerciais (conforme indicado em a seção "Informações detalhadas sobre o processamento de Dados Pessoais" neste documento), bem como para cumprir a lei e defender os nossos direitos perante as autoridades competentes onde os nossos direitos e interesses estão ameaçados ou sofremos um dano real.
+
+Não usaremos suas informações pessoais para fins diferentes, não relacionados ou incompatíveis sem notificar você.
+
+b. Seus direitos de privacidade na Califórnia e como exercê-los
+
+O direito ao conhecimento e à portabilidade
+Você tem o direito de solicitar que divulguemos a você:
+
+As categorias e fontes das informações pessoais que coletamos sobre você, os fins para os quais usamos suas informações e com quem essas informações são compartilhadas;
+
+Em caso de venda de informações pessoais ou divulgação para fins comerciais, duas listas separadas onde nós revelar:
+
+Ou vendas, as categorias de informações pessoais compradas por cada categoria de destinatário; e
+
+Para divulgações para fins comerciais, as categorias de informações pessoais obtidas por cada categoria de destinatário.
+
+A divulgação descrita acima será limitada às informações pessoais coletadas ou usadas nos últimos 12 Meses.
+
+Se entregarmos nossa resposta eletronicamente, as informações anexadas serão "portáteis", ou seja, entregues em um formato facilmente utilizável para permitir que você transmita as informações para outra entidade sem impedimentos – fornecido que isso é tecnicamente viável.
+
+O direito de solicitar a exclusão de suas informações pessoais
+Você tem o direito de solicitar que excluamos qualquer uma de suas informações pessoais, sujeito a exceções estabelecidas por a lei (como, incluindo, mas não limitado a, onde as informações são usadas para identificar e reparar erros em esta Aplicação, para detetar incidentes de segurança e proteger contra atividades fraudulentas ou ilegais, para exercer certos direitos, etc.).
+
+Se nenhuma exceção legal se aplicar, como resultado do exercício de seu direito, excluiremos suas informações pessoais e Instruir qualquer um dos nossos prestadores de serviços a fazê-lo.
+
+Como exercer os seus direitos
+Para exercer os direitos descritos acima, você precisa enviar sua solicitação verificável para nós, entrando em contato conosco através do detalhes fornecidos neste documento.
+
+Para que possamos responder ao seu pedido, é necessário que saibamos quem você é. Portanto, você só pode exercer o direitos acima referidos, mediante a apresentação de um pedido verificável que deve:
+
+Fornecer informações suficientes que nos permitam verificar razoavelmente se você é a pessoa sobre a qual nos referimos informações pessoais coletadas ou um representante autorizado;
+
+Inscreva sua solicitação com detalhes suficientes que nos permitam entender, avaliar e responder adequadamente a ele.
+
+Não responderemos a qualquer solicitação se não formos capazes de verificar sua identidade e, portanto, confirmar o pessoal as informações em nossa posse realmente se relacionam com você.
+
+Se você não puder enviar pessoalmente uma solicitação verificável, poderá autorizar uma pessoa registrada na Califórnia Secretário de Estado para agir em seu nome.
+
+Se for um adulto, pode fazer um pedido verificável em nome de um menor sob a sua autoridade parental.
+
+Você pode enviar um número máximo de 2 solicitações durante um período de 12 meses.
+
+Como e quando se espera que tratemos o seu pedido
+Confirmaremos o recebimento de sua solicitação verificável dentro de 10 dias e forneceremos informações sobre como iremos processar o seu pedido.
+
+Responderemos ao seu pedido no prazo de 45 dias a contar da sua receção. Se precisarmos de mais tempo, explicaremos a você as razões pelas quais e quanto mais tempo precisamos. A este respeito, por favor, note que podemos levar até 90 dias para atender ao seu pedido.
+
+A(s) nossa(s) divulgação(ões) cobrirá(ão) o período de 12 meses anterior.
+
+Se negarmos o seu pedido, explicar-lhe-emos as razões por detrás da nossa recusa.
+
+Não cobramos uma taxa para processar ou responder à sua solicitação verificável, a menos que tal solicitação seja manifestamente infundado ou excessivo. Nesses casos, podemos cobrar uma taxa razoável ou nos recusar a agir de acordo com a solicitação. Em em ambos os casos, comunicaremos nossas escolhas e explicaremos as razões por trás disso.
+
+12. FALE CONOSCO
+
+Para os fins do Regulamento Geral de Proteção de Dados ("GDPR") e outras leis globais aplicáveis, Nós somos o entidade responsável por suas informações pessoais ("o controlador"). dados").
+
+Se você tiver alguma dúvida sobre nossa Política de Privacidade ou como coletamos, usamos ou processamos seus dados pessoais informações, incluindo a transferência ou encaminhamento de suas informações pessoais. suas informações pessoais fora da sua jurisdição, entre em contato com nosso diretor de privacidade em:
+
+E-mail: buithuy.june@gmail.com

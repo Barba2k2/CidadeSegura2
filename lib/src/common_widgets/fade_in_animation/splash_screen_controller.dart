@@ -5,6 +5,7 @@ class FadeInAnimationController extends GetxController {
   static FadeInAnimationController get find => Get.find();
 
   RxBool animate = false.obs;
+  //Variavel usada para armazenar valores de verdadeiro ou falso do pacote GetX
 
   Future startSplashAnimation() async {
     await Future.delayed(const Duration(milliseconds: 500));
@@ -13,6 +14,7 @@ class FadeInAnimationController extends GetxController {
     animate.value = false;
     await Future.delayed(const Duration(milliseconds: 2000));
     Get.offAll(const WelcomeScreen());
+    //Função usada para navegar para uma nova tela (rota) e remover todas as rotas anteriores
   }
 
   Future startAnimation() async {

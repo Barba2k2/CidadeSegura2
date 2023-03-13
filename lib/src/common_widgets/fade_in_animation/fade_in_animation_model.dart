@@ -1,3 +1,5 @@
+//Classe modelo para controle da animação
+
 class TAnimatePosition {
   final double? topBefore, bottomBefore, leftBefore, rightBefore;
   final double? topAfter, bottomAfter, leftAfter, rightAfter;
