@@ -1,7 +1,10 @@
+import 'package:cidade_segura2/src/features/core/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../../constants/image_strings.dart';
 import '../../../../../constants/text_strings.dart';
+import '../../../../core/screens/HomePage/home_page.dart';
+import '../../../services/google_login_service.dart';
 import '../../signup/signup_screen.dart';
 
 class LoginFooterWidget extends StatelessWidget {
@@ -23,7 +26,10 @@ class LoginFooterWidget extends StatelessWidget {
               image: AssetImage(tGoogleLogoImage),
               width: 20,
             ),
-            onPressed: () {},
+            onPressed: () async {
+              signInWithGoogle();
+              await Get.to(const BottomNavBar());
+            },
             label: const Text(tSignInWithGoogle),
           ),
         ),

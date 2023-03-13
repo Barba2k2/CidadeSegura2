@@ -29,9 +29,9 @@ class ProfileScreen extends StatelessWidget {
             IconButton(
               onPressed: () {
                 isDark ? Brightness.light : Brightness.dark;
-                debugPrint('Cliquei aqui');
               },
-              icon: Icon(isDark ? LineAwesomeIcons.moon : LineAwesomeIcons.sun, color: isDark ? Colors.white : Colors.black),
+              icon: Icon(isDark ? LineAwesomeIcons.moon : LineAwesomeIcons.sun,
+                  color: isDark ? Colors.white : Colors.black),
             ),
           ],
         ),
@@ -58,7 +58,8 @@ class ProfileScreen extends StatelessWidget {
                       child: Container(
                         width: 35,
                         height: 35,
-                        decoration: BoxDecoration(borderRadius: BorderRadius.circular(100), color: tPrimaryColor),
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100), color: tPrimaryColor),
                         child: Icon(
                           LineAwesomeIcons.alternate_pencil,
                           size: 20,
@@ -111,7 +112,9 @@ class ProfileScreen extends StatelessWidget {
                   icon: LineAwesomeIcons.alternate_sign_out,
                   textColor: Colors.red,
                   endIcon: false,
-                  onPress: () {},
+                  onPress: () {
+                    Get.back();
+                  },
                 ),
               ],
             ),
