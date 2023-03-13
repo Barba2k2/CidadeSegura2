@@ -4,21 +4,20 @@ import 'package:get/get.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import '../../../../../constants/text_strings.dart';
 import '../../../models/user_model.dart';
+import '../../../services/google_login_service.dart';
 
 class SignUpFormWidget extends StatelessWidget {
-  const SignUpFormWidget({
-    super.key,
-  });
+  const SignUpFormWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(SignUpController());
-    final formKey = GlobalKey<FormState>();
+    final _formKey = GlobalKey<FormState>();
 
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 20),
       child: Form(
-        key: formKey,
+        key: _formKey,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -32,12 +31,12 @@ class SignUpFormWidget extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             TextFormField(
-              // validator: (value) {
-              //   if (value!.isEmpty) {
-              //     return 'Por favor, insira o email.';
-              //   }
-              //   return null;
-              // },
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Por favor, insira o email.';
+                }
+                return null;
+              },
               controller: controller.email,
               decoration: const InputDecoration(
                 // label: Text(tEmail),
@@ -67,14 +66,14 @@ class SignUpFormWidget extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             TextFormField(
-              // validator: (value) {
-              //   if (value!.isEmpty) {
-              //     return 'Por favor, insira uma senha.';
-              //   } else if (value.length <= 6) {
-              //     return 'A senha deve conter 7 ou mais caracteres.';
-              //   }
-              //   return null;
-              // },
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Por favor, insira uma senha.';
+                } else if (value.length <= 6) {
+                  return 'A senha deve conter 7 ou mais caracteres.';
+                }
+                return null;
+              },
               controller: controller.password,
               decoration: const InputDecoration(
                 label: Text(tPassword),
@@ -88,17 +87,17 @@ class SignUpFormWidget extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {
                   // -- Email Authentication
-                  // if (_formKey.currentState!.validate()) {
-                  //   SignUpController.instance.registerUser(
-                  //     controller.email.text.trim(),
-                  //     controller.password.text.trim(),
-                  //   );
-                  // }
+                  if (_formKey.currentState!.validate()) {
+                    SignUpController.instance.registerUser(
+                      controller.email.text.trim(),
+                      controller.password.text.trim(),
+                    );
+                  }
 
                   // -- Phone Authentication
-                  // SignUpController.instance.phoneAuthentication(
-                  //   controller.phoneNo.text.trim(),
-                  // );
+                  SignUpController.instance.phoneAuthentication(
+                    controller.phoneNo.text.trim(),
+                  );
 
                   final user = UserModel(
                     email: controller.email.text.trim(),

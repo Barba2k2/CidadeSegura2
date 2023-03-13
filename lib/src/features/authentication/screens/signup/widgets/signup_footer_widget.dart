@@ -1,9 +1,10 @@
 import 'package:cidade_segura2/src/features/authentication/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
+import 'package:provider/provider.dart';
 import '../../../../../constants/image_strings.dart';
 import '../../../../../constants/text_strings.dart';
+import '../../../services/google_sign_in.dart';
 
 class SignUpFooterWidget extends StatelessWidget {
   const SignUpFooterWidget({
@@ -19,7 +20,10 @@ class SignUpFooterWidget extends StatelessWidget {
         SizedBox(
           width: double.infinity,
           child: OutlinedButton.icon(
-            onPressed: () {},
+            onPressed: () {
+              final provider = Provider.of<GoogleSignInProvider>(context, listen: false);
+              provider.googleLogin();
+            },
             icon: const Image(
               image: AssetImage(tGoogleLogoImage),
               width: 20,

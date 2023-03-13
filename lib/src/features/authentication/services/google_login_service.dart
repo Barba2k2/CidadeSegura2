@@ -1,40 +1,34 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
-final GoogleSignIn googleSignIn = GoogleSignIn();
+final GoogleSignIn _googleSignIn = GoogleSignIn();
 
-Future<String> signInWithGoogle() async {
-  final GoogleSignInAccount? googleSignInAccount = await googleSignIn.signIn();
+Future<UserCredential> signInWithGoogle() async {
+  // Realiza a autenticação com o Google
+  final GoogleSignInAccount? googleSignInAccount = await _googleSignIn.signIn();
   final GoogleSignInAuthentication googleSignInAuthentication =
       await googleSignInAccount!.authentication;
 
+  // Cria as credenciais do usuário com o Google
   final AuthCredential credential = GoogleAuthProvider.credential(
     accessToken: googleSignInAuthentication.accessToken,
     idToken: googleSignInAuthentication.idToken,
   );
 
+  // Realiza o login com o Firebase Auth
   final UserCredential userCredential = await _auth.signInWithCredential(credential);
+
+  // Verifica se é um novo usuário e salva os dados no Firestore
   final User? user = userCredential.user;
-
-  if (user != null) {
-    assert(!user.isAnonymous);
-    assert(await user.getIdToken() != null);
-
-    final User? currentUser = _auth.currentUser;
-    assert(user.uid == currentUser!.uid);
-
-    debugPrint('signInWithGoogle succeeded: $user');
-
-    return '$user';
+  if (userCredential.additionalUserInfo!.isNewUser) {
+    await FirebaseFirestore.instance.collection('users').doc(user?.uid).set({
+      'email': user!.email,
+      'name': user.displayName,
+      'photoURL': user.photoURL,
+    });
   }
 
-  return 'Ok';
-}
-
-void signOutGoogle() async {
-  await googleSignIn.signOut();
-
-  debugPrint("User Sign Out");
+  return userCredential;
 }

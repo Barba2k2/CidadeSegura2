@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
+import 'package:provider/provider.dart';
 import '../../../../constants/colors.dart';
 import '../../../../constants/image_strings.dart';
 import '../../../../constants/sizes.dart';
 import '../../../../constants/text_strings.dart';
+import '../../../authentication/services/google_sign_in.dart';
 import 'update_profile_screen.dart';
 import 'widgtes/profile_menu.dart';
 
@@ -113,7 +115,8 @@ class ProfileScreen extends StatelessWidget {
                   textColor: Colors.red,
                   endIcon: false,
                   onPress: () {
-                    Get.back();
+                    final provider = Provider.of<GoogleSignInProvider>(context, listen: false);
+                    provider.logout();
                   },
                 ),
               ],
